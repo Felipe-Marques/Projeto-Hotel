@@ -18,6 +18,13 @@ ul {
 
 a{
 	text-decoration: none;
+	color: #000;
+}
+
+fieldset {
+	padding: 15px;
+	border: 1px solid;
+	border-color:  #b5ab56;
 }
 
 /** Formatando Texto **/
@@ -149,6 +156,15 @@ ul#navegacao a:hover {
 	background: #fdf6be;
 }
 
+body.home #container #topo ul#navegacao li a#home,
+body.historia #container #topo ul#navegacao li a#historia,
+body.imprensa #container #topo ul#navegacao li a#imprensa,
+body.gastronomia #container #topo ul#navegacao li a#gastronomia,
+body.contato #container #topo ul#navegacao li a#contato {
+	background:#a29750;
+	text-decoration: underline; 
+}
+
 .depoimento {
 	width: 226px;
 	height: 164px;
@@ -236,9 +252,91 @@ ul#navegacao a:hover {
 
 #rodape {
 	clear: both;
-	padding: 16px;
+	padding: 16px 0;
 	background: #fff url(../imagens/bg-rodape.png) repeat-x top;
 	color: #7d7640;
+	text-align: center;
+}
+
+#rodape .copy {
+	
+	margin: 0 auto;
+	display: inline-block;
+}
+
+/* ******* #INICIO - PÁGINA CONTATO ******* */
+
+body.contato #area-lateral {
+	padding: 15px 0;
+}
+
+body.contato .conteudo h2 {
+	text-align: center;
+}
+
+body.contato #area-principal .conteudo div {
+	margin: 0 auto;
+	width: 100%;
+}
+
+body.contato .conteudo h2 {
+	text-align: center;
+}
+
+
+body.contato #area-lateral form#lista-conteudo input {
+	padding: 0 5px;
+	border: 2px solid #a29750;
+	margin:5px 0;
+	width: 70%;
+	line-height: 30px;
+	background: #ede9cc;
+	color: #a29750;
+}
+
+body.contato #area-lateral form#lista-conteudo input::placeholder {
+	margin: 5px;
+	font-size: 1em;
+	color: #a29750;
+}
+
+body.contato #area-lateral form#lista-conteudo textarea::placeholder {
+	margin: 5px;
+	font-size: 1em;
+	color: #a29750;
+}
+
+body.contato #area-lateral form#lista-conteudo input[type="submit"] {
+	text-transform: uppercase;
+	background: #a29750;
+	color: #fff5b0;
+	padding: 5px 10px;
+}
+
+textarea:focus,
+input:focus
+{
+border-color: 2px solid #a29750 !important;
+outline: 0;
+-webkit-box-shadow: none !important;
+box-shadow: none !important;
+}
+
+body.contato #area-lateral form#lista-conteudo textarea {
+	padding: 5px;
+	line-height: 30px;
+	background: #ede9cc;
+	border: 2px solid #a29750;
+	color: #a29750;
+}
+
+
+
+body.contato #area-lateral form#lista-conteudo h3 {
+	font-size:1em;
+	color: #615b2d;
+	padding: 5px 0;
+	margin: 0 5px;
 }
 
 
