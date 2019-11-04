@@ -25,11 +25,11 @@ fieldset {
 	padding: 15px;
 	border: 1px solid;
 	border-color:  #b5ab56;
-	min-width: 499px;
+	width:94%;
 }
 
 textarea {
-	max-width: 485px;
+	width:97%;
 }
 /** Formatando Texto **/
 h2 {
