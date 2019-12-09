@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chalé Hotel &bull; Reserva</title>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body id="reserva">
+
+	<div id="container" > <!-- INICIO CONTAINER-->
+		<div id="topo"> <!-- INICIO TOPO-->
+			
+			<div id="area-logo"> <!-- INICIO LOGO-->
+				<h1 class="logo">
+					<a href="">Chalé Hotel</a>
+				</h1>
+			</div> <!-- FIM LOGO-->
+
+			<div id="area-menu"> <!-- INICIO ÁREA MENU TOPO-->
+				<div id="conteudo-menu">
+					
+					<div id="menu-locais"> <!-- INICIO ÁREA LOCAIS E RESERVAR-->
+						<ul id="locais">
+							<li><a href="contato.html">Rio de Janeiro</a></li> -
+							<li><a href="contato-sp.html">São Paulo</a></li> -
+							<li><a href="contato-bh.html">Belo Horizonte</a></li>
+						</ul>
+						<a class="reserva" href="">Reservar</a>
+						<div style="clear: both;"></div>
+					</div> <!-- FIM ÁREA LOCAIS E RESERVAR-->
+
+					<div id="menu"> <!-- INICIO MENU VERTICAL-->
+						<ul id="navegacao">
+							<li><a id="home" href="index.html">Home</a></li>
+							<li><a id="historia"href="historia.html">História</a></li>
+							<li><a id="imprensa"href="imprensa.html">Imprensa</a></li>
+							<li><a id="gastronomia" href="gastronomia.html">Gastronomia</a></li>
+							<li><a id="contato" href="contato.html">Contato</a></li>							
+						</ul>
+
+						<img class="depoimento" src="imagens/depoimento.png">
+					</div> <!-- INICIO MENU VERTICAL-->
+
+				</div>
+			</div> <!-- FIM ÁREA MENU TOPO-->
+
+		</div> <!-- FIM TOPO-->	
+
+		<div id="principal-uma-coluna"> <!-- INICIO ÁREA PRINCIPAL-->
+			<div class="conteudo">
+				<h2>Reservas Chalé Hotel</h2>
+
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur suscipit auctor risus in bibendum. Quisque justo erat, pharetra laoreet mollis non, accumsan vitae erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce maximus purus et eleifend sagittis. Suspendisse pellentesque, eros sed fermentum porttitor, ligula mi lacinia orci, eu dignissim lectus sapien et turpis. In hac habitasse platea dictumst. 
+					</p>
+
+					<div>
+						<form id="formulario-reserva">
+							<div class="row ">
+
+								<div class="item-form">
+									<label for="nome">Nome:</label>
+									<input type="text" name="nome" id="nome">
+								</div>
+
+								<div class="item-form">
+									<label for="email">E-mail:</label>
+									<input type="text" name="email" id="email">
+								</div>	
+
+								<div class="item-form">
+									<label>Telefone:</label>
+									<input type="tel" name="telefone" id="telefone" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" placeholder="(021) 9999-9999">
+								</div>
+
+							</div>
+
+							<div class="row">
+
+								<div class="item-form">
+									<label for="check-in"> <img src="imagens/calendar.png"> Check-In</label>
+									<input type="date" name="Check-In" id="check-in">
+								</div>
+
+								<div class="item-form">
+									<label for="check-in"> <img src="imagens/calendar.png"> Check-Out</label>
+									<input type="date" name="Check-In" id="check-in">
+								</div>
+
+								<div class="item-form">
+									<label for="cidade">Cidade:</label>
+									<input type="text" name="Cidade" id="cidade">
+								</div>
+
+							</div>
+						</form>
+
+						<hr class="separar">
+
+						<form id="formulario-acomodacao">
+							<div class="row">
+
+								<div class="item-form">
+									<label for="apto">Acomodações:</label>
+									<select type="text" name="apto" id="apto"> 
+										<option selected="selected">Selecione a acomodação</option>
+										<option value="Apartamento Lago">Apartamento Lago</option>
+										<option value="Apartamento Jardim">Apartamento Jardim</option>
+										<option value="Apartamento Village">Apartamento Village</option>
+										<option value="Apartamento Deck">Apartamento Deck</option>
+									</select>
+								</div>
+
+								<div class="item-form">
+									<label for="vaga-adulto">Adulto:</label>
+									<input type="number" name="vaga-adulto" id="vaga-adulto" min="1" max="2">
+								</div>	
+
+								<div class="item-form">
+									<label>Criança(0-5 anos):</label>
+									<input type="number" name="crianças (0-5 anos)" id="crianca" min="1" max="2">
+								</div>
+
+								<div class="item-form">
+									<label>Criança(6-12 anos):</label>
+									<input type="number" name="crianças (6-12 anos)" id="crianca" min="1" max="2">
+								</div>
+
+							</div>
+
+							<div>
+								<textarea type="text" id="mansagem" placeholder="Solicitações especiais" rows="5"></textarea>
+							</div>
+						</form>
+					</div>
+			</div>
+		</div> <!-- FIM ÁREA PRINCIPAL-->
+
+		<div id="rodape"> <!-- INICIO RODAPÉ-->
+			<div class="copy">
+				<span>
+					&copy; Copyright 2000-2019 &bull; Chalé Hotel
+				</span>
+			</div>
+		</div> <!-- FIM RODAPÉ-->
+
+</body>
+</html>
