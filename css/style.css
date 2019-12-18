@@ -1,163 +1,176 @@
 /* *********** Chalé Hotel CSS ************ */
 
+
 /* ******* #INICIO - CONFIGURAÇÃO RESET ******* */
+
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	background: #fff url(../imagens/bg.png);
-	margin:15px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #fff url(../imagens/bg.png);
+    margin: 15px;
 }
 
 ul {
-	list-style: none;
+    list-style: none;
 }
 
-a{
-	text-decoration: none;
-	color: #000;
+a {
+    text-decoration: none;
+    color: #000;
 }
 
 fieldset {
-	padding: 15px;
-	border: 1px solid;
-	border-color:  #b5ab56;
-	width:94%;
+    padding: 15px;
+    border: 1px solid;
+    border-color: #b5ab56;
+    width: 94%;
 }
 
 textarea {
-	width:97%;
-}
-/** Formatando Texto **/
-h2 {
-	color: #7d7640;
-	font-size: 1.1em;
-	padding: 5px 0px;
+    width: 97%;
 }
 
-p{
-	font-size: 1em;
-	margin-bottom: 10px;
-}
+
 /** Formatando Texto **/
+
+h2 {
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 5px 0px;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+
+/** Formatando Texto **/
+
 
 /* ******* #FIM - CONFIGURAÇÃO RESET ******* */
 
 
 /* ******* #INICIO - CONFIGURAÇÃO CONTAINER ******* */
+
 #container {
-	background: #ede9cc url(../imagens/bg-container.png) top center repeat-y;
-	margin: 0 auto;
-	min-width: 740px;
-	max-width: 1180px;
+    background: #ede9cc url(../imagens/bg-container.png) top center repeat-y;
+    margin: 0 auto;
+    min-width: 740px;
+    max-width: 1180px;
 }
+
+
 /* ******* #FIM - CONFIGURAÇÃO CONTAINER ******* */
 
 
 /* ******* #INICIO - CONFIGURAÇÃO TOPO ******* */
-#topo {
-	position: relative;
-	background: #decd87;
-	height: 15.4em;
-	min-height: 250px;
+
+.navbar {
+    position: relative;
+    background: #decd87;
+    height: 15.4em;
+    min-height: 250px;
 }
 
 .logo a {
-	position: absolute;
-	top: 15px;
-	left: 15px;
-	z-index: 3;
-	background: url(../imagens/logo.png) no-repeat;
-	width: 151px;
-	height: 66px;
-	text-indent: -3000px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 3;
+    background: url(../imagens/logo.png) no-repeat;
+    width: 151px;
+    height: 66px;
+    text-indent: -3000px;
 }
 
 #area-logo {
-	position: absolute;
-	top: 0;
-	left: 0;
-
-	background:url(../imagens/topo-imagem-principal.png) no-repeat; 
-	width: 100%;
-	height: 250px;
-	z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../imagens/topo-imagem-principal.png) no-repeat;
+    width: 100%;
+    height: 250px;
+    z-index: 1;
 }
 
 
 /* ****** ÁREA MENU ******* */
-#area-menu {
-	position:absolute;
-	top: 0;
-	right: 0;
 
-	background:url(../imagens/topo-imagem-lateral.png) no-repeat; ;
-	width: 450px;
-	height: 250px;
-	z-index: 2;
+#area-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(../imagens/topo-imagem-lateral.png) no-repeat;
+    ;
+    width: 450px;
+    height: 250px;
+    z-index: 2;
 }
 
 #conteudo-menu {
-	margin-left: 90px;
-	margin-right: 15px;
-	padding-top: 15px;
+    margin-left: 90px;
+    margin-right: 15px;
+    padding-top: 15px;
 }
 
 #menu-locais {
-	border-bottom: 1px solid #b5ab56;
-	border-top: 1px solid #b5ab56;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	font-size: 0.7em;	
+    border-bottom: 1px solid #b5ab56;
+    border-top: 1px solid #b5ab56;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 0.7em;
 }
 
 #menu-locais ul {
-	color: #8b8448;
-	float: left;
-
+    color: #8b8448;
+    float: left;
 }
 
 ul#locais li {
-	display: inline;
+    display: inline;
 }
 
 ul#locais li a {
-	color: #8b8448;
+    color: #8b8448;
 }
 
 a.reserva {
-	
-	text-transform: uppercase;
-	background: #a29750;
-	color: #fff5b0;
-	padding: 5px 10px;
-	float: right;
+    text-transform: uppercase;
+    background: #a29750;
+    color: #fff5b0;
+    padding: 5px 10px;
+    float: right;
 }
+
+
 /* ******* ÁREA MENU ******* */
+
 
 /* ******* MENU VERTICAL ******* */
 
 #menu {
-	margin-top: 15px;
+    margin-top: 15px;
 }
 
 ul#navegacao {
-	float: left;
+    float: left;
 }
 
 ul#navegacao a {
-	text-transform: uppercase;
-	font-size: 0.8em;
-	padding: 5px;
-	color: #6e672c;
-	line-height: 30px;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding: 5px;
+    color: #6e672c;
+    line-height: 30px;
 }
 
 ul#navegacao a:hover {
-	background: #fdf6be;
+    background: #fdf6be;
 }
 
 body.home #container #topo ul#navegacao li a#home,
@@ -165,65 +178,73 @@ body.historia #container #topo ul#navegacao li a#historia,
 body.imprensa #container #topo ul#navegacao li a#imprensa,
 body.gastronomia #container #topo ul#navegacao li a#gastronomia,
 body.contato #container #topo ul#navegacao li a#contato {
-	background:#a29750;
-	text-decoration: underline; 
+    background: #a29750;
+    text-decoration: underline;
 }
 
 .depoimento {
-	width: 226px;
-	height: 164px;
-	right: right;
+    width: 226px;
+    height: 164px;
+    right: right;
 }
+
+
 /* ******* #FIM - CONFIGURAÇÃO TOPO ******* */
+
 
 /* ******* #INICIO - ÁREA DE CONTEUDO ******* */
 
 #area-principal {
-	float: left;
-	width:50%;
-	background: url(../imagens/bg-area-principal.png) top left repeat-x;
-	padding: 15px 0px;
+    float: left;
+    width: 50%;
+    background: url(../imagens/bg-area-principal.png) top left repeat-x;
+    padding: 15px 0px;
 }
 
-
 #area-lateral {
-	float: right;
-	width:50%;
-	background: url(../imagens/bg-area-lateral.png) top left repeat-x;
-	padding: 20px 0px;
+    float: right;
+    width: 50%;
+    background: url(../imagens/bg-area-lateral.png) top left repeat-x;
+    padding: 20px 0px;
+}
+
+ul#lista-conteudo {
+    height: 100%;
 }
 
 #lista-conteudo li {
-	padding: 8px;
-	border-bottom: 1px solid #f3efcb;
-	height: 6em;
+    padding: 8px;
+    border-bottom: 1px solid #f3efcb;
+    height: auto;
 }
 
 #lista-conteudo li a img {
-	float: left;
-	margin-right: 8px;
+    float: left;
+    margin-right: 8px;
 }
 
 #lista-conteudo li a p {
-	color: #000;
-	font-size: 0.8em;
+    color: #000;
+    font-size: 0.8em;
 }
 
 #lista-conteudo li a h3 {
-	font-size:1em;
-	color: #615b2d;
-	padding: 5px 0;
-	background: url(../imagens/ornamento.png) no-repeat center right;
+    font-size: 1em;
+    color: #615b2d;
+    padding: 5px 0;
+    background: url(../imagens/ornamento.png) no-repeat center right;
 }
 
 #lista-conteudo li:hover {
-	background: #f6f5d6;
-	cursor: pointer;
+    background: #f6f5d6;
+    cursor: pointer;
 }
 
 #lista-conteudo li:last-child {
-	border-bottom: none;
+    border-bottom: none;
 }
+
+
 /*
 #lista-conteudo img {
 	width: 35%;
@@ -248,100 +269,99 @@ body.contato #container #topo ul#navegacao li a#contato {
 	background: #c3ba8b;
 }*/
 
-
 .conteudo {
-	margin: 0 auto;
-	width: 90%;
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
 }
 
 #rodape {
-	clear: both;
-	padding: 16px 0;
-	background: #fff url(../imagens/bg-rodape.png) repeat-x top;
-	color: #7d7640;
-	text-align: center;
+    clear: both;
+    height: auto;
+    background: #fff url(../imagens/bg-rodape.png) repeat-x top;
+    color: #7d7640;
+    text-align: center;
 }
 
 #rodape .copy {
-	
-	margin: 0 auto;
-	display: inline-block;
+    display: flex;
+    height: 80%;
+    margin: 30px auto;
 }
+
+footer .copy span {
+    align-self: center;
+    margin-right: 20px;
+}
+
 
 /* ******* #INICIO - PÁGINA CONTATO ******* */
 
 body.contato #area-lateral {
-	padding: 15px 0;
+    padding: 15px 0;
 }
 
 body.contato .conteudo h2 {
-	text-align: center;
+    text-align: center;
 }
 
 body.contato #area-principal .conteudo div {
-	margin: 0 auto;
-	width: 100%;
+    margin: 0 auto;
+    width: 100%;
 }
 
 body.contato .conteudo h2 {
-	text-align: center;
+    text-align: center;
 }
 
-
 body.contato #area-lateral form#lista-conteudo input {
-	padding: 0 5px;
-	border: 2px solid #a29750;
-	margin:5px 0;
-	width: 70%;
-	line-height: 30px;
-	background: #ede9cc;
-	color: #a29750;
+    padding: 0 5px;
+    border: 2px solid #a29750;
+    margin: 5px 0;
+    width: 70%;
+    line-height: 30px;
+    background: #ede9cc;
+    color: #a29750;
 }
 
 body.contato #area-lateral form#lista-conteudo input::placeholder {
-	margin: 5px;
-	font-size: 1em;
-	color: #a29750;
+    margin: 5px;
+    font-size: 1em;
+    color: #a29750;
 }
 
 body.contato #area-lateral form#lista-conteudo textarea::placeholder {
-	margin: 5px;
-	font-size: 1em;
-	color: #a29750;
+    margin: 5px;
+    font-size: 1em;
+    color: #a29750;
 }
 
 body.contato #area-lateral form#lista-conteudo input[type="submit"] {
-	text-transform: uppercase;
-	background: #a29750;
-	color: #fff5b0;
-	padding: 5px 10px;
+    text-transform: uppercase;
+    background: #a29750;
+    color: #fff5b0;
+    padding: 5px 10px;
 }
 
 textarea:focus,
-input:focus
-{
-border-color: 2px solid #a29750 !important;
-outline: 0;
--webkit-box-shadow: none !important;
-box-shadow: none !important;
+input:focus {
+    border-color: 2px solid #a29750 !important;
+    outline: 0;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
 }
 
 body.contato #area-lateral form#lista-conteudo textarea {
-	padding: 5px;
-	line-height: 30px;
-	background: #ede9cc;
-	border: 2px solid #a29750;
-	color: #a29750;
+    padding: 5px;
+    line-height: 30px;
+    background: #ede9cc;
+    border: 2px solid #a29750;
+    color: #a29750;
 }
-
-
 
 body.contato #area-lateral form#lista-conteudo h3 {
-	font-size:1em;
-	color: #615b2d;
-	padding: 5px 0;
-	margin: 0 5px;
+    font-size: 1em;
+    color: #615b2d;
+    padding: 5px 0;
+    margin: 0 5px;
 }
-
-
-
