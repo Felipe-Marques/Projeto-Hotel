@@ -4,6 +4,8 @@
 <head>
 
     <meta charset="utf-8">
+    <meta name="author" content="Felipe Marques">
+    <meta name="description" content="Projeto Full Stack">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!--CDN BOOTSTRAP-->
@@ -12,46 +14,50 @@
     <!--CSS PERSONALIZADO-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <title>Chalé Hotel &bull; Faça sua reserva</title>
+    <title>Chalé Hotel &bull; Faça sua reserva </title>
 
 </head>
 
 <body id="reserva">
 
+    <!-- INICIO CONTAINER-->
     <div id="container">
-        <!-- INICIO CONTAINER-->
-        <div id="topo">
-            <!-- INICIO TOPO-->
 
+        <!-- INICIO TOPO-->
+        <nav class="navbar">
+
+            <!-- INICIO LOGO-->
             <div id="area-logo">
-                <!-- INICIO LOGO-->
-                <h1 class="logo">
+                <h1 class="navbar-brand logo">
                     <a href="">Chalé Hotel</a>
                 </h1>
             </div>
             <!-- FIM LOGO-->
 
+            <!-- INICIO ÁREA MENU TOPO-->
             <div id="area-menu">
-                <!-- INICIO ÁREA MENU TOPO-->
                 <div id="conteudo-menu">
 
+                    <!-- INICIO ÁREA LOCAIS E RESERVAR-->
                     <div id="menu-locais">
-                        <!-- INICIO ÁREA LOCAIS E RESERVAR-->
+
                         <ul id="locais">
                             <li><a href="contato.html">Rio de Janeiro</a></li> -
                             <li><a href="contato-sp.html">São Paulo</a></li> -
                             <li><a href="contato-bh.html">Belo Horizonte</a></li>
                         </ul>
-                        <a class="reserva" href="">Reservar</a>
+
+                        <a class="reserva" href="reserva.html">Reservar</a>
                         <div style="clear: both;"></div>
                     </div>
                     <!-- FIM ÁREA LOCAIS E RESERVAR-->
 
+                    <!-- INICIO MENU VERTICAL-->
                     <div id="menu">
-                        <!-- INICIO MENU VERTICAL-->
+
                         <ul id="navegacao">
                             <li><a id="home" href="index.html">Home</a></li>
-                            <li><a id="historia" href="historia.html">História</a></li>
+                            <li><a id="historia" href="#">História</a></li>
                             <li><a id="imprensa" href="imprensa.html">Imprensa</a></li>
                             <li><a id="gastronomia" href="gastronomia.html">Gastronomia</a></li>
                             <li><a id="contato" href="contato.html">Contato</a></li>
@@ -65,11 +71,13 @@
             </div>
             <!-- FIM ÁREA MENU TOPO-->
 
-        </div>
+        </nav>
         <!-- FIM TOPO-->
 
+        <!-- INICIO ÁREA PRINCIPAL-->
         <div id="principal-uma-coluna">
-            <!-- INICIO ÁREA PRINCIPAL-->
+
+            <!--INICIO DA AREA DE CONTEUDO-->
             <div class="conteudo">
                 <h2>Reservas Chalé Hotel</h2>
 
@@ -78,7 +86,9 @@
                     et eleifend sagittis. Suspendisse pellentesque, eros sed fermentum porttitor, ligula mi lacinia orci, eu dignissim lectus sapien et turpis. In hac habitasse platea dictumst.
                 </p>
 
-                <div>
+                <!--INICIO DA AREA DE RESERVA-->
+                <div id="area-reserva">
+                    <!--INICIO FORMULÁRIO RESERVA-->
                     <form id="formulario-reserva">
                         <div class="row ">
 
@@ -118,9 +128,11 @@
 
                         </div>
                     </form>
+                    <!--FIM FORMULÁRIO RESERVA-->
 
                     <hr class="separar">
 
+                    <!--INICIO FORMULÁRIO DE ACOMODAÇÃO-->
                     <form id="formulario-acomodacao">
                         <div class="row">
 
@@ -155,21 +167,80 @@
                         <div>
                             <textarea type="text" id="mansagem" placeholder="Solicitações especiais" rows="5"></textarea>
                         </div>
+
                     </form>
+                    <!--FIM FORMULÁRIO DE ACOMODAÇÃO-->
+
                 </div>
+                <!--FIM DA AREA DE RESERVA-->
+
             </div>
+            <!--FIM DA AREA DE CONTEUDO-->
         </div>
         <!-- FIM ÁREA PRINCIPAL-->
 
-        <div id="rodape">
-            <!-- INICIO RODAPÉ-->
-            <div class="copy">
-                <span>
-					&copy; Copyright 2000-2019 &bull; Chalé Hotel
-				</span>
+        <!-- INICIO RODAPÉ-->
+        <footer id="rodape">
+
+            <!--INICIO MENU-RODAPE-->
+            <div class="row w-100 mx-0 row-rodape">
+                <!-- INICIO MENU VERTICAL-->
+                <div id="menu" class="menu-rodape col-6 px-0">
+                    <ul id="navegacao" class="nav flex-column col-12">
+                        <li class="nav-item">
+                            <img src="imagens/ornamento.png" alt="">
+                            <a id="home" href="index.html">Home</a>
+                            <img src="imagens/ornamento.png" alt="">
+                        </li>
+                        <li class="nav-item">
+                            <img src="imagens/ornamento.png" alt="">
+                            <a id="historia" href="historia.html">História</a>
+                            <img src="imagens/ornamento.png" alt="">
+                        </li>
+                        <li class="nav-item">
+                            <img src="imagens/ornamento.png" alt="">
+                            <a id="imprensa" href="imprensa.html">Imprensa</a>
+                            <img src="imagens/ornamento.png" alt="">
+                        </li>
+                        <li class="nav-item">
+                            <img src="imagens/ornamento.png" alt="">
+                            <a id="gastronomia" href="gastronomia.html">Gastronomia</a>
+                            <img src="imagens/ornamento.png" alt="">
+                        </li>
+                        <li class="nav-item">
+                            <img src="imagens/ornamento.png" alt="">
+                            <a id="contato" href="contato.html">Contato</a>
+                            <img src="imagens/ornamento.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <!-- FIM MENU VERTICAL-->
+
+                <!--INICIO DEPOIMENTO-->
+                <div class="depo-rodape col-6 px-0">
+                    <img src="imagens/depoimento.png" alt="Depoimento" class="img-depo-rodape">
+                </div>
+                <!--FIM DEPOIMENTO-->
             </div>
-        </div>
+            <!--FIM MENU-RODAPE-->
+
+            <div class="row w-100 mx-0">
+                <!-- Inicio - Copyright-->
+                <div class="copy">
+                    <span>
+					    &copy; Copyright 2000-2019 &bull; 
+                    </span>
+
+                    <img src="imagens/logo.png" alt="Chalé Hotel" class="img-footer">
+                </div>
+                <!-- Fim - Copyright-->
+
+
+            </div>
+
+        </footer>
         <!-- FIM RODAPÉ-->
+
     </div>
     <!--FIM DO CONTAINER -->
 
