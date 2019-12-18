@@ -11,7 +11,7 @@
 body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     background: #fff url(../imagens/bg.png);
-    margin: 15px;
+    margin: 0;
 }
 
 ul {
@@ -123,12 +123,15 @@ p {
     border-top: 1px solid #b5ab56;
     padding-top: 5px;
     padding-bottom: 5px;
-    font-size: 0.7em;
+    margin-bottom: 15px;
+    font-size: 0.8em;
 }
 
 #menu-locais ul {
     color: #8b8448;
     float: left;
+    margin-bottom: auto;
+    padding-top: 5px;
 }
 
 ul#locais li {
@@ -154,7 +157,7 @@ a.reserva {
 /* ******* MENU VERTICAL ******* */
 
 #menu {
-    margin-top: 15px;
+    clear: both;
 }
 
 ul#navegacao {
@@ -244,35 +247,48 @@ ul#lista-conteudo {
     border-bottom: none;
 }
 
-
-/*
-#lista-conteudo img {
-	width: 35%;
-	float:left;
-	margin-right: 8px;
-}
-
-#lista-conteudo p {
-	color: #000;
-	border-bottom: 1px solid #f3efcb;
-	height:6em;
-
-	padding:5px;
-	text-align: justify;
-}
-
-#lista-conteudo p.last {
-	border-bottom: none;
-}
-
-#lista-conteudo li:hover {
-	background: #c3ba8b;
-}*/
-
 .conteudo {
     margin: 0 auto;
     width: 90%;
     height: 100%;
+}
+
+
+/* ******* #FIM - ÁREA DE CONTEUDO ******* */
+
+
+/* ******* #INICIO - ÁREA DE RODAPÉ ******* */
+
+.row-rodape {
+    background: #dbd294;
+}
+
+.menu-rodape {
+    margin: auto 0;
+}
+
+footer .menu-rodape ul#navegacao {
+    padding-right: 0;
+}
+
+footer .menu-rodape ul#navegacao li {
+    width: 45%;
+    display: inline-block;
+    /*background: url(../imagens/ornamento.png) no-repeat center left;*/
+    margin: 0 auto;
+}
+
+footer .menu-rodape ul#navegacao li a {
+    font-size: 1em;
+    margin-left: 30px;
+}
+
+.depo-rodape {
+    margin: 15px 0 5px 0;
+}
+
+.img-depo-rodape {
+    margin-bottom: 5px;
 }
 
 #rodape {
@@ -286,13 +302,16 @@ ul#lista-conteudo {
 #rodape .copy {
     display: flex;
     height: 80%;
-    margin: 30px auto;
+    margin: 15px auto;
 }
 
 footer .copy span {
     align-self: center;
     margin-right: 20px;
 }
+
+
+/* ******* #FIM - ÁREA DE RODAPÉ ******* */
 
 
 /* ******* #INICIO - PÁGINA CONTATO ******* */
