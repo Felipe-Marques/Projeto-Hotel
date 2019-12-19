@@ -274,7 +274,6 @@ footer .menu-rodape ul#navegacao {
 footer .menu-rodape ul#navegacao li {
     width: 45%;
     display: inline-block;
-    /*background: url(../imagens/ornamento.png) no-repeat center left;*/
     margin: 0 auto;
 }
 
@@ -387,3 +386,70 @@ body.contato #area-lateral form#lista-conteudo h3 {
 
 
 /* ******* #FIM - PÁGINA CONTATO ******* */
+
+
+/* ******* #INICIO - PÁGINA RESERVA ******* */
+
+#container-reserva {
+    background: #ede9cc;
+    margin: 0 auto;
+    min-width: 740px;
+    max-width: 1180px;
+}
+
+#principal-uma-coluna {
+    margin: 30px 0;
+}
+
+.conteudo-reserva {
+    width: 100%;
+    padding: 0 0;
+}
+
+#area-reserva {
+    padding: 0;
+}
+
+#principal-uma-coluna div #area-reserva #formulario-reserva div.row {
+    margin: 0 0 20px 0;
+    padding: 0 0;
+    width: 100%;
+}
+
+#principal-uma-coluna div #area-reserva form#formulario-reserva div. div.item-form {
+    padding: 0;
+}
+
+#principal-uma-coluna div #area-reserva #formulario-reserva div.row div.item-form input {
+    width: 99%;
+}
+
+#principal-uma-coluna div #area-reserva #formulario-acomodacao div.row {
+    margin: 0 0 20px 0;
+    padding: 0 auto;
+    width: 100%;
+}
+
+#principal-uma-coluna div #area-reserva #formulario-acomodacao div.row .item-form {
+    padding: 0 0;
+    margin-right: auto;
+}
+
+#principal-uma-coluna div #area-reserva #formulario-acomodacao div.row .item-form input {
+    width: 130px;
+}
+
+select {
+    width: 240px;
+}
+
+#principal-uma-coluna div #area-reserva #formulario-acomodacao .texto-reserva {
+    padding: 0 auto;
+}
+
+#principal-uma-coluna div #area-reserva #formulario-acomodacao div textarea#mensagem {
+    width: 100%;
+}
+
+
+/* ******* #FIM - PÁGINA RESERVA ******* */

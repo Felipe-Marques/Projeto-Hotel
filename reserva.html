@@ -18,10 +18,10 @@
 
 </head>
 
-<body id="reserva">
+<body>
 
     <!-- INICIO CONTAINER-->
-    <div id="container">
+    <div id="container-reserva">
 
         <!-- INICIO TOPO-->
         <nav class="navbar">
@@ -75,10 +75,11 @@
         <!-- FIM TOPO-->
 
         <!-- INICIO ÁREA PRINCIPAL-->
-        <div id="principal-uma-coluna">
+        <section id="principal-uma-coluna">
 
             <!--INICIO DA AREA DE CONTEUDO-->
-            <div class="conteudo">
+            <div class="container conteudo-reserva">
+
                 <h2>Reservas Chalé Hotel</h2>
 
                 <p>
@@ -86,42 +87,46 @@
                     et eleifend sagittis. Suspendisse pellentesque, eros sed fermentum porttitor, ligula mi lacinia orci, eu dignissim lectus sapien et turpis. In hac habitasse platea dictumst.
                 </p>
 
+                <br>
+
                 <!--INICIO DA AREA DE RESERVA-->
-                <div id="area-reserva">
+                <div id="area-reserva" class="container">
+
                     <!--INICIO FORMULÁRIO RESERVA-->
                     <form id="formulario-reserva">
-                        <div class="row ">
 
-                            <div class="item-form">
+                        <div class="row col-12">
+
+                            <div class="item-form col-4">
                                 <label for="nome">Nome:</label>
                                 <input type="text" name="nome" id="nome">
                             </div>
 
-                            <div class="item-form">
+                            <div class="item-form col-4">
                                 <label for="email">E-mail:</label>
-                                <input type="text" name="email" id="email">
+                                <input type="text" name="email" id="email" placeholder="seu-email@dominio.com">
                             </div>
 
-                            <div class="item-form">
+                            <div class="item-form col-4">
                                 <label>Telefone:</label>
                                 <input type="tel" name="telefone" id="telefone" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" placeholder="(021) 9999-9999">
                             </div>
 
                         </div>
 
-                        <div class="row">
+                        <div class="row col-12">
 
-                            <div class="item-form">
+                            <div class="item-form col-4">
                                 <label for="check-in"> <img src="imagens/calendar.png"> Check-In</label>
                                 <input type="date" name="Check-In" id="check-in">
                             </div>
 
-                            <div class="item-form">
+                            <div class="item-form col-4">
                                 <label for="check-in"> <img src="imagens/calendar.png"> Check-Out</label>
                                 <input type="date" name="Check-In" id="check-in">
                             </div>
 
-                            <div class="item-form">
+                            <div class="item-form col-4">
                                 <label for="cidade">Cidade:</label>
                                 <input type="text" name="Cidade" id="cidade">
                             </div>
@@ -134,9 +139,9 @@
 
                     <!--INICIO FORMULÁRIO DE ACOMODAÇÃO-->
                     <form id="formulario-acomodacao">
-                        <div class="row">
+                        <div class="row col-12">
 
-                            <div class="item-form">
+                            <div class="item-form col-4">
                                 <label for="apto">Acomodações:</label>
                                 <select type="text" name="apto" id="apto"> 
 										<option selected="selected">Selecione a acomodação</option>
@@ -147,25 +152,25 @@
 									</select>
                             </div>
 
-                            <div class="item-form">
+                            <div class="item-form col-2">
                                 <label for="vaga-adulto">Adulto:</label>
                                 <input type="number" name="vaga-adulto" id="vaga-adulto" min="1" max="2">
                             </div>
 
-                            <div class="item-form">
+                            <div class="item-form col-3">
                                 <label>Criança(0-5 anos):</label>
                                 <input type="number" name="crianças (0-5 anos)" id="crianca" min="1" max="2">
                             </div>
 
-                            <div class="item-form">
+                            <div class="item-form col-3">
                                 <label>Criança(6-12 anos):</label>
                                 <input type="number" name="crianças (6-12 anos)" id="crianca" min="1" max="2">
                             </div>
 
                         </div>
 
-                        <div>
-                            <textarea type="text" id="mansagem" placeholder="Solicitações especiais" rows="5"></textarea>
+                        <div class=" container texto-reserva col-12 ">
+                            <textarea type="text" id="mensagem" placeholder="Solicitações especiais" rows="5"></textarea>
                         </div>
 
                     </form>
@@ -176,7 +181,7 @@
 
             </div>
             <!--FIM DA AREA DE CONTEUDO-->
-        </div>
+        </section>
         <!-- FIM ÁREA PRINCIPAL-->
 
         <!-- INICIO RODAPÉ-->
