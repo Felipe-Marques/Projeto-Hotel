@@ -416,27 +416,30 @@ body.contato #area-lateral form#lista-conteudo h3 {
     width: 100%;
 }
 
-#principal-uma-coluna div #area-reserva form#formulario-reserva div. div.item-form {
+#principal-uma-coluna div #area-reserva form#formulario-reserva div .item-form {
     padding: 0;
 }
 
-#principal-uma-coluna div #area-reserva #formulario-reserva div.row div.item-form input {
-    width: 99%;
+#principal-uma-coluna div #area-reserva #formulario-reserva .row .item-form input {
+    width: 98%;
 }
 
-#principal-uma-coluna div #area-reserva #formulario-acomodacao div.row {
+#principal-uma-coluna div #area-reserva #formulario-acomodacao .row {
     margin: 0 0 20px 0;
-    padding: 0 auto;
+    padding: 0 0;
     width: 100%;
 }
 
 #principal-uma-coluna div #area-reserva #formulario-acomodacao div.row .item-form {
     padding: 0 0;
-    margin-right: auto;
+}
+
+#principal-uma-coluna div #area-reserva #formulario-acomodacao div.row .item-modificado {
+    width: 130px;
 }
 
 #principal-uma-coluna div #area-reserva #formulario-acomodacao div.row .item-form input {
-    width: 130px;
+    width: 100px;
 }
 
 select {
@@ -444,11 +447,16 @@ select {
 }
 
 #principal-uma-coluna div #area-reserva #formulario-acomodacao .texto-reserva {
-    padding: 0 auto;
+    padding: 0;
 }
 
 #principal-uma-coluna div #area-reserva #formulario-acomodacao div textarea#mensagem {
     width: 100%;
+}
+
+#principal-uma-coluna div #area-reserva #formulario-acomodacao div textarea#mensagem::placeholder {
+    padding: 15px;
+    font-size: 1em;
 }
 
 
