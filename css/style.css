@@ -260,11 +260,11 @@ ul#lista-conteudo {
 }
 
 .menu-rodape {
-    margin: auto 0;
+    margin: 20px 0;
 }
 
-ul#navegacao .navegacao-rodape {
-    float: none;
+.depo-rodape {
+    margin: 20px 0;
 }
 
 footer .menu-rodape ul#navegacao {
@@ -274,7 +274,7 @@ footer .menu-rodape ul#navegacao {
 footer .menu-rodape ul#navegacao li {
     width: 50%;
     display: inline-block;
-    margin: 0 auto;
+    margin: 0 auto 5px auto;
 }
 
 footer .menu-rodape ul#navegacao li a {
@@ -289,10 +289,6 @@ footer .menu-rodape ul#navegacao a span {
 
 footer .menu-rodape ul#navegacao a span:hover {
     background: #fdf6be;
-}
-
-.depo-rodape {
-    margin: 15px 0 5px 0;
 }
 
 .img-depo-rodape {
