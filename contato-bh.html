@@ -71,68 +71,81 @@
         </nav>
         <!-- FIM TOPO-->
 
-        <!-- INICIO ÁREA PRINCIPAL-->
-        <div id="area-principal">
+        <!--#INICIO SECTION-->
+        <section>
 
-            <!--INICIO DA ÁREA DE CONTEUDOS-->
-            <div class="conteudo">
+            <!--#INICIO DA ROW -->
+            <div class="row w-100">
 
-                <h2>Nos encontre em Belo Horizonte!</h2>
-                <p>
-                    Endereço: Lorem ipsum dolor sit amet - 123123 - Lorem Ipsum<br> Belo Horizonte - MG <br> E-mail:
-                    <a href="">chalehotel@chalehotel.com.br</a><br> Telefone: (21)99999-9999 / (21)99999-9999
-                </p>
-                <h2>Localização</h2>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.685092984997!2d-43.37268918555799!3d-22.998604646934524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bdbb3803160b5%3A0x290b26223905704c!2sBosque%20da%20Barra%20-%20Barra%20da%20Tijuca%2C%20Rio%20de%20Janeiro%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1572724569827!5m2!1spt-BR!2sbr"
-                    width="98%" height="450" frameborder="0" style="border:5px solid #ccc;" allowfullscreen="">
-				</iframe>
+                <!-- INICIO ÁREA PRINCIPAL-->
+                <div id="area-principal" class="container col-12 col-lg-6">
 
+                    <!--#INICIO - Conteúdo Principal-->
+                    <div class="conteudo">
+
+                        <h2>Nos encontre em Belo Horizonte</h2>
+                        <p>
+                            Endereço: Av. Pres. Antonio Carlos, Nº - Lagoinha - Belo Horizonte-MG CEP: 31213-000 <br> E-mail:
+                            <a href="">chalehotel@chalehotel.com.br</a><br> Telefone: (31)99999-9999 / (31)99999-9999
+                        </p>
+
+                        <h2>Localização</h2>
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3752.416513337926!2d-43.95723991473128!3d-19.86462680250296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa69063b7b1e421%3A0x8d60185a1d3b2754!2sAv.%20Pres.%20Ant%C3%B4nio%20Carlos%2C%206510%20-%20Lagoinha%2C%20Belo%20Horizonte%20-%20MG%2C%2031210-800!5e0!3m2!1spt-BR!2sbr!4v1577040442575!5m2!1spt-BR!2sbr"
+                            width="100%" height="520" frameborder="0" style="border:5px solid #ccc;" allowfullscreen=""></iframe>
+
+
+                    </div>
+                    <!--#FIM - Conteúdo Principal-->
+
+                </div>
+                <!-- FIM ÁREA PRINCIPAL-->
+
+                <!-- INICIO ÁREA LATERAL-->
+                <div id="area-lateral" class="col-12 col-lg-6">
+                    <div class="conteudo-contato">
+
+                        <h2>Fale Conosco</h2>
+
+                        <!--INICIO DO FORM-->
+                        <form id="lista-conteudo">
+
+                            <fieldset>
+
+                                <legend>
+                                    <h3>Contato</h3>
+                                </legend>
+
+                                <label for="nome">Nome:</label><br>
+                                <input type="text" name="Nome" id="nome" />
+                                <br>
+
+                                <label for="telefone">Telefone:</label><br>
+                                <input type="text" placeholder="(xx) xxxxx-xxxxx" name="telefone" id="telefone">
+                                <br>
+
+                                <label for="email">E-mail:</label><br>
+                                <input type="text" placeholder="exemploemail@exemplo.com" name="E-mail" id="email">
+                                <br>
+
+                                <label>Mensagem:</label>
+                                <textarea placeholder="Envie sua mensagem:" rows="7"></textarea>
+
+                                <div style="text-align: center;">
+                                    <input type="submit" id="mensagem" value="Enviar Mensagem">
+                                </div>
+                            </fieldset>
+
+                        </form>
+                        <!--FIM DO FORM-->
+                    </div>
+                </div>
+                <!-- FIM ÁREA LATERAL-->
             </div>
-            <!--FIM DA ÁREA DE CONTEUDOS-->
+            <!--#FIM DA ROW -->
 
-        </div>
-        <!-- FIM ÁREA PRINCIPAL-->
-
-        <!-- INICIO ÁREA LATERAL-->
-        <div id="area-lateral">
-
-            <!-- INICIO ÁREA DE CONTEUDO-->
-            <div class="conteudo">
-
-                <h2>Entre em Contato</h2>
-                <form id="lista-conteudo">
-
-                    <fieldset>
-
-                        <legend>
-                            <h3>Contato</h3>
-                        </legend>
-
-                        <label for="nome">Nome:</label><br>
-                        <input type="text" name="Nome" id="nome" />
-                        <br>
-
-                        <label for="telefone">Telefone:</label><br>
-                        <input type="text" placeholder="(xx) xxxxx-xxxxx" name="telefone" id="telefone">
-                        <br>
-
-                        <label for="email">E-mail:</label><br>
-                        <input type="text" placeholder="exemploemail@exemplo.com" name="E-mail" id="email">
-                        <br>
-
-                        <label>Mensagem:</label>
-                        <textarea placeholder="Envie sua mensagem:" rows="10"></textarea>
-
-                        <div style="text-align: center;">
-                            <input type="submit" id="mensagem" value="Enviar Mensagem">
-                        </div>
-                    </fieldset>
-                </form>
-            </div>
-            <!-- FIM ÁREA DE CONTEUDO-->
-
-        </div>
-        <!-- FIM ÁREA LATERAL-->
+        </section>
+        <!--#INICIO SECTION-->
 
         <!-- INICIO RODAPÉ-->
         <footer id="rodape">
@@ -170,7 +183,7 @@
                 <!-- FIM MENU VERTICAL RODAPÉ-->
 
                 <!--INICIO DEPOIMENTO-->
-                <div class="depo-rodape col-6 px-0">
+                <div class="depo-rodape col-12 col-md-6 px-0">
                     <img src="imagens/depoimento.png" alt="Depoimento" class="img-depo-rodape">
                 </div>
                 <!--FIM DEPOIMENTO-->
@@ -198,9 +211,9 @@
     <!-- FIM CONTAINER-->
 
     <!--SCRIPTS - JQUERY, POPPER, BOOTSTRAP E MYSCRIPT -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js " integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy " crossorigin="anonymous "></script>
 
 </body>
 
