@@ -156,10 +156,6 @@ a.reserva {
 
 /* ******* MENU VERTICAL ******* */
 
-#menu {
-    clear: both;
-}
-
 ul#navegacao {
     float: left;
 }
@@ -267,19 +263,32 @@ ul#lista-conteudo {
     margin: auto 0;
 }
 
+ul#navegacao .navegacao-rodape {
+    float: none;
+}
+
 footer .menu-rodape ul#navegacao {
-    padding-right: 0;
+    padding: 0;
 }
 
 footer .menu-rodape ul#navegacao li {
-    width: 45%;
+    width: 50%;
     display: inline-block;
     margin: 0 auto;
 }
 
 footer .menu-rodape ul#navegacao li a {
     font-size: 1em;
-    margin-left: 30px;
+    padding: 5px 30px 5px 0;
+    background: url(../imagens/ornamento.png) no-repeat center right;
+}
+
+footer .menu-rodape ul#navegacao a span {
+    padding: 5px;
+}
+
+footer .menu-rodape ul#navegacao a span:hover {
+    background: #fdf6be;
 }
 
 .depo-rodape {
