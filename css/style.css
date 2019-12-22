@@ -249,6 +249,12 @@ ul#lista-conteudo {
     height: 100%;
 }
 
+.conteudo-contato {
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+}
+
 
 /* ******* #FIM - ÁREA DE CONTEUDO ******* */
 
