@@ -37,10 +37,13 @@ textarea {
 
 /** Formatando Texto **/
 
+body.contato .conteudo-contato h2,
+body.contato .conteudo h2,
 h2 {
     color: #7d7640;
-    font-size: 1.1em;
-    padding: 5px 0px;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 20px 0;
 }
 
 p {
@@ -272,18 +275,6 @@ body.contato div#container section div.row {
 
 body.contato #area-lateral {
     padding: 15px 0;
-}
-
-body.contato .conteudo h2 {
-    font-size: 1.5em;
-    text-align: center;
-    margin-top: 10px;
-}
-
-body.contato .conteudo-contato h2 {
-    font-size: 1.5em;
-    text-align: center;
-    margin-top: 10px;
 }
 
 body.contato #area-lateral form#lista-conteudo h3 {
