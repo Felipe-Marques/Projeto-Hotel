@@ -237,6 +237,11 @@ ul#lista-conteudo {
 #lista-conteudo li:hover {
     background: #f6f5d6;
     cursor: pointer;
+    text-decoration-line: none;
+}
+
+#lista-conteudo li a:hover {
+    text-decoration-line: none;
 }
 
 #lista-conteudo li:last-child {
@@ -257,71 +262,6 @@ ul#lista-conteudo {
 
 
 /* ******* #FIM - ÁREA DE CONTEUDO ******* */
-
-
-/* ******* #INICIO - ÁREA DE RODAPÉ ******* */
-
-.row-rodape {
-    background: #dbd294;
-}
-
-.menu-rodape {
-    margin: 20px 0;
-}
-
-.depo-rodape {
-    margin: 20px 0;
-}
-
-footer .menu-rodape ul#navegacao {
-    padding: 0;
-}
-
-footer .menu-rodape ul#navegacao li {
-    width: 50%;
-    display: inline-block;
-    margin: 0 auto 5px auto;
-}
-
-footer .menu-rodape ul#navegacao li a {
-    font-size: 1em;
-    padding: 5px 30px 5px 0;
-    background: url(../imagens/ornamento.png) no-repeat center right;
-}
-
-footer .menu-rodape ul#navegacao a span {
-    padding: 5px;
-}
-
-footer .menu-rodape ul#navegacao a span:hover {
-    background: #fdf6be;
-}
-
-.img-depo-rodape {
-    margin-bottom: 5px;
-}
-
-#rodape {
-    clear: both;
-    height: auto;
-    background: #fff url(../imagens/bg-rodape.png) repeat-x top;
-    color: #7d7640;
-    text-align: center;
-}
-
-#rodape .copy {
-    display: flex;
-    height: 80%;
-    margin: 15px auto;
-}
-
-footer .copy span {
-    align-self: center;
-    margin-right: 20px;
-}
-
-
-/* ******* #FIM - ÁREA DE RODAPÉ ******* */
 
 
 /* ******* #INICIO - PÁGINA CONTATO ******* */
@@ -488,3 +428,68 @@ select {
 
 
 /* ******* #FIM - PÁGINA RESERVA ******* */
+
+
+/* ******* #INICIO - ÁREA DE RODAPÉ ******* */
+
+.row-rodape {
+    background: #dbd294;
+}
+
+.menu-rodape {
+    margin: 20px 0;
+}
+
+.depo-rodape {
+    margin: 20px 0;
+}
+
+footer .menu-rodape ul#navegacao {
+    padding: 0;
+}
+
+footer .menu-rodape ul#navegacao li {
+    width: 50%;
+    display: inline-block;
+    margin: 0 auto 5px auto;
+}
+
+footer .menu-rodape ul#navegacao li a {
+    font-size: 1em;
+    padding: 5px 30px 5px 0;
+    background: url(../imagens/ornamento.png) no-repeat center right;
+}
+
+footer .menu-rodape ul#navegacao a span {
+    padding: 5px;
+}
+
+footer .menu-rodape ul#navegacao a span:hover {
+    background: #fdf6be;
+}
+
+.img-depo-rodape {
+    margin-bottom: 5px;
+}
+
+#rodape {
+    clear: both;
+    height: auto;
+    background: #fff url(../imagens/bg-rodape.png) repeat-x top;
+    color: #7d7640;
+    text-align: center;
+}
+
+#rodape .copy {
+    display: flex;
+    height: 80%;
+    margin: 15px auto;
+}
+
+footer .copy span {
+    align-self: center;
+    margin-right: 20px;
+}
+
+
+/* ******* #FIM - ÁREA DE RODAPÉ ******* */
