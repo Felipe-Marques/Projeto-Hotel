@@ -19,7 +19,7 @@ ul {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none!important;
     color: #000;
 }
 
@@ -467,19 +467,19 @@ footer .menu-rodape ul#navegacao a span:hover {
     clear: both;
     height: auto;
     background: #fff url(../imagens/bg-rodape.png) repeat-x top;
-    color: #7d7640;
     text-align: center;
 }
 
 #rodape .copy {
     display: flex;
-    height: 80%;
-    margin: 15px auto;
+    padding: 20px;
+    align-self: center;
 }
 
-footer .copy span {
+footer .copy a span {
     align-self: center;
-    margin-right: 20px;
+    color: #7d7640;
+    margin-right: 5px;
 }
 
 
